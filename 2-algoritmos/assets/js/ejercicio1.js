@@ -1,5 +1,5 @@
 //crea un archivo llamado ejercicio1.js
-//cada comando debe mostrarse en consola
+//cada comando debe mostrarse en consola.
 
 const personas = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 
