@@ -1,9 +1,13 @@
 div {
-    border: red 3px solid;
+    border: red 6px solid;
     margin: 10px;
-    padding: 10px;
+    padding: 1%;
 }
 
 div > p{
     color: blue;
+}
+
+p[unico]{
+    color: red;
 }
