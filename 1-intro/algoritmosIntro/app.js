@@ -1,4 +1,4 @@
-alert("¡Hola, Raquel!");
+//alert("¡Hola, Raquel!");
 
 //esto es un comentario
 
@@ -8,6 +8,8 @@ Un
 Comentario
 De
 Bloque*/
+
+//TIPOS DE VARIABLES
 
 let miVariable = "Raquel";
 console.log(miVariable);

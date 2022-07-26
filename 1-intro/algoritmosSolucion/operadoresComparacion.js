@@ -1,5 +1,5 @@
 /*
-OPERADORES DE COMPAREACION
+OPERADORES DE COMPARACION
 == Igual. Devuelve TRUE si los operandos son iguales
 === Estrictamente igual.
 != Diferente. Deviuelve TRUE si los operandos son distintos
