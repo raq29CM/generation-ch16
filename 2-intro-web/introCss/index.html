@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/selector.css">
+    
     <style type="text/css" media = "all">
         *{
             font-size: 1rem;
@@ -14,14 +16,60 @@
         }
         div.nuevo{
             color: #00ccff;
+            border: 0px;
         }
     </style>
-            <!-- colores del texto y fondo
-            <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        *.univ{
+            color: #ee1e1ebe;
+        }
+        .univ1{
+            color: #fb98ffaa;
+            border: 0px;
+        }
+    </style>
+    <!-- SELECTOR ID; E#e, Almohadilla (#) -->
+    <style>
+        p #alm1{
+            color: #0897bb;
+        }
+    </style>
+    <style>
+        p #alm2{
+            color: #acdd39;
+        }
+    </style>
+    <style>
+        * #alm3{
+            color: #b81890;
+        }
+    </style>        
 
 </head>
 <body>
-    <h1>Esto es una prueba </h1>
+    <p>Esto es el parrafo 1</p>
+
+    <div>
+    <!-- Para crear listas -->
+    <ul>
+        <li>
+            elemento de una listas
+            <p>parrafo dentro de una lista</p>
+        </li>
+    </ul>
+    <p>Otro parrafo fuera de la lista</p>
+    </div>
+
+    <p id="alm2">
+        Esto es de alm2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <p id="alm1">
+        Esto es de alm1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <h1>Esto es una prueba </h1>    
+
     <div class="nuevo">
         Lorem ipsum dolor sit amet consectetur. <br>
         adipisicingelit. Quo dicta animi dolorem vitae <br>
@@ -32,5 +80,17 @@
     <p class="aviso">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
+
+    <div class="univ1">
+        Lorem ipsum dolor sit amet consectetur. <br>
+        adipisicingelit. Quo dicta animi dolorem vitae <br>
+        cumque ab quos laborum in, suscipit ea, adipisci.
+    </div>
+    <p class="univ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
 </body>
 </html>
+
+
