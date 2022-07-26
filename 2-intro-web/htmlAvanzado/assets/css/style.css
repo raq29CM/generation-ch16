@@ -1,0 +1,46 @@
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style: upper-alpha;
+}
+
+/* ES MAS SENCILLO ASI; CREANDO UNA CLASE */
+.sub{
+    border: 3px dotted burlywood;
+}
+
+/* ESTA FORMA ES POSIBLE PERO MAS COMPLICADA */
+/* ul > ol > li{
+    border: 3px dotted rgb(25, 131, 69);
+} */
+
+h1{
+    background-color: blueviolet;
+}
+
+/* Mostrar un div vacio*/
+div.vacio{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+} 
+
+div.cont{
+    background-color: cadetblue;
+    width: fit-content;
+}
+
+a{
+    display: inline-block;
+    background-color: deeppink;
+    width: 200px;
+    height: 50px;
+    border: 3px black dashed;
+    margin: 10px;
+}
+
+span{
+    background-color: cornflowerblue;
+}
