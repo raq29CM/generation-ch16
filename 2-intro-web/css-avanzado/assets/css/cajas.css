@@ -1,0 +1,86 @@
+.cuadro{
+    /* El background-color: aqui ya no es necesario 
+    background-color: #80cccc; */
+    height: 100px;
+    width: 100px;
+    /* Margen igual por todos lados */
+    /* margin: 20px; */
+
+    /* Margen especifico para cada lado */
+    /* Opcion 1: */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    /* Opcion 2: */
+    /* margin: 50px 40px 30px 20px; - sentido de reloj*/
+
+    /* Que puedan estar en la misma linea */
+    /* display: inline-block; */
+
+    /* el padding es un espaciado interno */
+    /* padding: 10px; */
+    /* Padding mas especifico */
+    /* Sentido de reloj */
+    padding: 50px 40px 30px 20px;
+
+    /* Border */
+    border: 10px rgb(248, 248, 18) solid;
+
+    /* Bordes redondeados */
+    /* border-radius: 50%; */
+    /* Bordes redondeados mas especificos*/
+    /* border-radius: 50px 40px 30px 20px - sentido de reloj*/
+}
+
+.el-1{
+    background-color: rgb(10, 10, 177);
+
+    /* Posicion por Defecto - Static / Estatica */
+    position: static; 
+}
+
+.el-2{
+    background-color: rgb(124, 233, 60);
+
+    /* Posicion Absolute / Absoluta */
+    /* Esto significa que el elemento con esta posicion 'sale' del flujo de HTML */
+    position: absolute;
+    /* Utilidad: Te permite poner una posicion especifica */
+    /* Tambien se puede en pixeles:  
+    top: 100px;
+    right: 100px; 
+    Esto lo cuenta desde el margin*/
+    right: 0;
+    top: 0;
+
+}
+
+.el-3{
+    background-color: rgb(219, 148, 17);
+
+    /* Posicion Relative / Relativa */
+    /* El cuadrado se queda en su lugar pero lo puedes mover desde esa posocion */
+    position: relative;
+    /* Utilidad: Te permite poner una posicion especifica */
+    left: 220px;
+}
+
+.el-4{
+    background-color: rgb(199, 23, 126);
+    /* Posicion Fixed / Fija */
+    /* Esto significa que el elemento con esta posicion 'sale' del flujo de HTML */
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    /* Se utiliza para los MENUS DE NAVEGACION */
+}
+
+.el-5{
+    background-color: rgb(247, 119, 168);
+    /* Posicion Sticky */
+    /* Se requiere especificar la posicion */
+    /* Sirve para que un elemento se mueva hacia la posicion indicada y ahi se quede */
+    position: sticky;
+    top: 0;
+}

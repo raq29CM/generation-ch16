@@ -1,0 +1,23 @@
+/* UTILIZAR UN FONT POR MEDIO DE @import */
+/* Para usar font-family: 'Square Peg', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+h1{
+    /* propiedades */
+    font-size: 54px;
+    /* modificar fuentes */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+p.default{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.fontPorLink{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p.fontPorImport{
+    font-family: 'Square Peg', cursive;
+    font-size: 23px;
+}
