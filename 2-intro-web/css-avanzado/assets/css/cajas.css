@@ -59,11 +59,6 @@
 .el-3{
     background-color: rgb(219, 148, 17);
 
-    /* Posicion Relative / Relativa */
-    /* El cuadrado se queda en su lugar pero lo puedes mover desde esa posocion */
-    position: relative;
-    /* Utilidad: Te permite poner una posicion especifica */
-    left: 220px;
 }
 
 .el-4{

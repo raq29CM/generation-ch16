@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/cajas.css">
+    <!-- link rel="stylesheet" href="assets/css/cajas.css" -->
+    <link rel="stylesheet" href="assets/css/display.css">
+
 </head>
 <body>
     <!-- .cuadro*numero_de_veces -->
     <!-- en este ejemplo: .cuadro*5 -->
     <!-- Clase: cuadro; Subclase: el-# -->
-    <div class="cuadro el-1">1</div>
-    <div class="cuadro el-2">2</div>
-    <div class="cuadro el-3">3</div>
-    <div class="cuadro el-4">4</div>
-    <div class="cuadro el-5">5</div>
+
+    <div class="cuadro-padre">
+
+        <div class="cuadro el-1">1</div>
+        <div class="cuadro el-2">2</div>
+        <div class="cuadro el-3">
+            <img src="https://whatdir.com/assets/whatsapp-groups/stickers-y-monas-chinas-625.jpg" alt="" width="150px">
+        </div>
+        <div class="cuadro el-4">4</div>
+        <!--div class="cuadro el-5">5</!--div-->
+
+    <!-- INTRO A BOOTSTRAP -->
+    <!-- Es un framework de css que ya viene con clases diseñadas--> 
+    </div>
     
+    <div class="contenedor">
+        <div class="fila">
+            <div class="columna" style="background-color: red;">1 Lorem, ipsum dolor.</div>
+            <div class="columna" style="background-color: rgb(143, 146, 184);">2 Lorem, ipsum dolor.</div>
+            <div class="columna color-verde">3 Lorem, ipsum dolor.</div>
+        </div>
+    </div>
 </body>
 </html>

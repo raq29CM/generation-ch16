@@ -1,0 +1,75 @@
+.cuadro-padre{
+    background-color: rgb(233, 204, 166);
+
+    height: 600px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    /* nos permite alinear en horizontal */
+    /* Recuerden a word */
+    justify-content: space-between;
+
+    /* nos permite alinear en vertical */
+    align-items: center;
+}
+.cuadro{
+
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 50px 40px 30px 20px;
+    border: 10px rgb(248, 248, 18) solid;
+
+}
+
+.el-1{
+    background-color: rgb(10, 10, 177);
+    align-self: flex-start;
+    /* Abarcar el 100% del espacio disponible */
+    flex-grow: 1;
+}
+
+.el-2{
+    background-color: rgb(124, 233, 60);
+    flex-grow: 1;
+}
+
+.el-3{
+    background-color: rgb(219, 148, 17);
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.el-4{
+    background-color: rgb(199, 23, 126);
+    flex-grow: 1;
+}
+
+/* .el-5{
+    background-color: rgb(247, 119, 168);
+} */
+
+/* INTRODUCCION A BOOTSTRAP */
+.contenedor{
+    height: 200px;
+    background-color: #80cccc;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.fila{
+    display: flex;
+}
+
+.columna{
+    flex-grow: 1;
+}
+
+.color-verde{
+    background-color: rgba(138, 189, 88, 0.856);
+}
