@@ -1,8 +1,35 @@
+/* Asi podemos cambiar el tamaño de letra por default en html 
+REMs: 
+
+html{
+    font-size: 16px;
+} */
+
+/* .cuadro-padre{
+    /* Asi podemos variar el font size del objeto padre */
+    /* font-size: 10px; */
+
+
 .cuadro{
     /* El background-color: aqui ya no es necesario 
     background-color: #80cccc; */
-    height: 100px;
-    width: 100px;
+
+    /* Ancho y alto en pixeles */
+    /* height: 100px;
+    width: 100px; */
+
+    /* REMs */
+    /* 1 rem = 16px (font size html)*/
+    /* Si yo cambio el font size de html tambien cambia la conversion a rem */
+    /* Toman como unidad patron de la raiz de html */
+    /* height: 10rem;
+    width: 10rem; */
+
+    /* EMs */
+    /* No usan el font size html(raiz) sino del objeto padre(cuadro-padre) */
+    height: 10em;
+    width: 10em;
+
     /* Margen igual por todos lados */
     /* margin: 20px; */
 
