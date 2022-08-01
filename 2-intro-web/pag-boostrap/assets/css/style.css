@@ -7,3 +7,20 @@
     height: 300px;
     object-fit: cover;
 }
+
+/* @media(max-width: 600px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+
+@media(max-width: 800px){
+    body{
+        background-color: rgb(237, 100, 146);
+    }
+} */
+
+.caja{
+    position: relative;
+    top: -60px;
+}
