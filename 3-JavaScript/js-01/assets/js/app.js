@@ -53,7 +53,7 @@ console.log(arr2);
 //Objetos
 // ESTRUCTURA: clave - valor
 
-const persona = {
+const persona = { //Esto es un objeto
     nombre: 'Raquel',
     edad: 31,
     hobbies: [ //Esto es un arreglo
@@ -61,7 +61,7 @@ const persona = {
         "Ver Shrek 1 y 2",
         "Comer"
     ],
-    auto: { //Esto es un objeto
+    auto: { 
         marca: "Nissan",
         modelo: "Platina",
         year: 2004

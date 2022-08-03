@@ -22,4 +22,3 @@ console.log(caracteres + resultado);
 (function(a, b){
     console.log("El resultado de Self Invoking es: " + (a + b));
 })(3,4);
-
