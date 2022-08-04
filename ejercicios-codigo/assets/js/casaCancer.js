@@ -14,7 +14,7 @@ switch(medicion){
     case 2:    
         function gFahrenheit(grados){
             c= (grados - 32) * (5/9);
-            k= ((grados - 32) * (5/9)) + 273.16;
+            k= ((grados - 32) * (5/9)) + 273.15;
             alert("La conversion a grados Celsius es: " + c + "\nLa conversion a grados Kelvin es: " + k);
         }
         gFahrenheit(grados);

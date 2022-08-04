@@ -2,21 +2,16 @@ let carreritas = ["Lucia", "Roberto", "Maria", "Jesus", "Andrea", "Jose"];
 console.log(carreritas);
 
 /* Andrea adelanta a Maria */
-carreritas.splice(2,4);
-
-carreritas.push("Andrea");
-carreritas.push("Maria");
-carreritas.push("Jesus");
-carreritas.push("Jose");
+carreritas.splice(4,1);
+carreritas.splice(2,0,"Andrea");
 console.log(carreritas);
 
 /* Jose es descalificado de la carrera */
-carreritas.pop();
+carreritas.splice(5,1);
 console.log(carreritas);
 
 /* Detras de Lucia y antes de Roberto se clasifican tres nuevos corredores: Cristobal, Fernanda y Armando */
 carreritas.shift();
-
 carreritas.unshift("Lucia", "Cristobal", "Fernanda", "Armando" );
 console.log(carreritas);
 

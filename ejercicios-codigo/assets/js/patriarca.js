@@ -8,33 +8,39 @@ if(pin === pinIngress){
         alert("Procesando retiro por $" + retiro);
         saldo -= retiro;
         let resto = retiro;
-        if(resto >= 1000){
-            let mil = parseInt(resto/1000);
-            resto -= mil*1000;
-            alert("El retiro se efectuara con: \n" + mil + " billete(s) de $1000");
-            if((resto >= 500) && (resto < 1000)){
-                let quinientos = parseInt(resto/500);
-                resto -= quinientos*500;
-                alert(quinientos + " billete(s) de $500");
+        let op = 1;
+        switch(op){
+            case 1:
+                if(resto >= 1000){
+                    let mil = parseInt(resto/1000);
+                    resto -= mil*1000;
+                    alert("El retiro se efectuara con: \n" + mil + " billete(s) de $1000");
+                }
+            case 2:
+                if((resto >= 500) && (resto < 1000)){
+                    let quinientos = parseInt(resto/500);
+                    resto -= quinientos*500;
+                    alert(quinientos + " billete(s) de $500");
+                }
+            case 3:
                 if((resto < 500) && (resto >= 200)){
                     let doscientos = parseInt(resto/200);
                     resto -= doscientos*200;
                     alert(doscientos + " billete(s) de $200");
-                    if((resto < 200) && (resto >= 100)){
-                        let cien = parseInt(resto/100);
-                        resto -= cien*100;
-                        alert(cien + " billete(s) de $100");
-                        if((resto < 100) && (resto >= 20)){
-                            let viente = parseInt(resto/20);
-                            resto -= viente*20;
-                            alert(viente + " billete(s) de $20");
-                        }
-                    }
-
                 }
-            }
+            case 4:
+                if((resto < 200) && (resto >= 100)){
+                    let cien = parseInt(resto/100);
+                    resto -= cien*100;
+                    alert(cien + " billete(s) de $100");
+                }
+            case 5:
+                if((resto < 100) && (resto >= 20)){
+                    let viente = parseInt(resto/20);
+                    resto -= viente*20;
+                    alert(viente + " billete(s) de $20");
+                }
         }
-
     }else if(retiro%200 != 0){
         alert("Por el momento solo se permiten retiros en multiplos de $200.");
     }else if(retiro > saldo){
