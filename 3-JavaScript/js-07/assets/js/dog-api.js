@@ -24,7 +24,7 @@ btn.addEventListener("click", () => {
 //funcion para obtener perritos aleatorios
 async function obtenerPerritosAleatorios(url){
     const respuesta = await fetch(url);
-    /* const datos = await respuesta.json() */
+    const datos = await respuesta.json()
 
     console.log(respuesta);
     /* console.log(datos.message); */ //url de la imagen
