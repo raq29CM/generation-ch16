@@ -17,10 +17,10 @@
         <div class="row">
             <div class="col">
             <!-- *************** FORMULARIO *************** -->    
-                <form class="bg-dark p-4 text-white nt-4 rounded-lg">
+                <form class="bg-dark p-4 text-white nt-4 rounded-lg" id="buscador-pokemon">
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Escribe el nombre del Pokemon:</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="busqueda-pokemon">Escribe el nombre o ID del Pokemon:</label>
+                      <input type="text" class="form-control" id="busqueda-pokemon" aria-describedby="emailHelp">
                       <small id="emailHelp" class="form-text text-muted">Selecciona el nombre del pokemon que quieras</small>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -38,17 +38,14 @@
                     </div>
                   </div>
             </div>
-*
         <!-- ************************ HABILIDADES ************************* -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <div class="card-header bg-info">
                         Habilidades
                     </div>
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush" id="lista-habilidades">
                         <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
                     </ul>
                 </div>
             </div>
@@ -58,10 +55,8 @@
                     <div class="card-header bg-info">
                       Tipos
                     </div>
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush" id="tipos">
                       <li class="list-group-item">An item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
                     </ul>
                   </div>
             </div>
