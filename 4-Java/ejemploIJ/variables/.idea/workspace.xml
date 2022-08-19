@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117a74e-c333-409a-a288-498dcd67de58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresAritmeticos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresAsignacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresIncrementales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresLogicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresRelacionales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadoresUnarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prueba1/Prueba1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prueba1/Prueba1/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8117a74e-c333-409a-a288-498dcd67de58" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-11",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC PRINCIPAL\Desktop\generation-ch16\4-Java\ejemploIJ\variables" />
