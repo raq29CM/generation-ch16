@@ -1,21 +1,21 @@
 package com.arcm.h_abstracta;
 
-public class Triangulo extends FigurasGeometricas {
+public class Triangulo extends FigurasGeometricas{
     private float base;
     private float altura;
 
-    public Triangulo() {
-    }
 
     public Triangulo(float base, float altura) {
+
+        super("Trinagulo ");
+
         this.base = base;
         this.altura = altura;
-
     }
 
     @Override
-    public float area() {
-        return (getBase()*getAltura())/2;
+    public float area(){
+        return (getBase()*getAltura()/2);
     }
 
     public float getBase() {

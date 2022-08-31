@@ -1,21 +1,22 @@
 package com.arcm.herencia;
 
 public class BasePadre {
-    private int a;
+    protected int a;
     private double b;
     private String c;
 
-    public BasePadre(){}
+    public BasePadre(){
 
-    public void visualizarA(int a){
-        System.out.println("El valor entero es: " + a);
+    }
+    public void visualizarA(){
+        System.out.println("Objeto h -> soy un metodo de la clase BasePadre");
+
+    }
+    public void visualizarABC(){
+        System.out.println("Objeto ho -> soy el metodo visualizarABC");
+
     }
 
-    public void visualizarABC(int a, double b, String c){
-        System.out.println("El valor entero es: " + a);
-        System.out.println("El valor double es: " + b);
-        System.out.println("El string es: " + c);
-    }
 
     public int getA() {
         return a;
@@ -38,6 +39,12 @@ public class BasePadre {
     }
 
     public void setC(String c) {
+        this.c = c;
+    }
+
+    public BasePadre(int a, double b, String c) {
+        this.a = a;
+        this.b = b;
         this.c = c;
     }
 }
