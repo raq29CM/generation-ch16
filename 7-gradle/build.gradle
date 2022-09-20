@@ -1,5 +1,11 @@
 task hello {
-     {
-        println 'Hello world!'
+    doLast{
+        println "Hello world!"
+    }
+}
+
+task proyect{
+    doLast{
+        println "Proyecto: Ramaka"
     }
 }
